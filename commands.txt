@@ -1,0 +1,9 @@
+mongoimport --db shakir --collection books --file books.json --jsonArray
+pip install flask Flask-PyMongo flask-mongoengine
+
+
+pip install --user pipenv
+pipenv install
+
+pipenv shell
+python app.py
